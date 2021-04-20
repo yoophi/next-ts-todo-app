@@ -1,6 +1,7 @@
+import { NextPage } from "next";
 import React from "react";
 
-const index = () => {
+const index: NextPage = () => {
   return <div>hello, TypeScript!</div>;
 };
 
